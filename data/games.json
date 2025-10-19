@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Example Game 1",
+    "description": "A really fun game I've been enjoying!",
+    "site": "https://example.com/game1",
+    "source": "https://example.com/mygames"
+  },
+  {
+    "title": "Example Game 2",
+    "description": "Another great game worth checking out.",
+    "site": "https://example.com/game2",
+    "source": "https://example.com/mygames"
+  }
+]
