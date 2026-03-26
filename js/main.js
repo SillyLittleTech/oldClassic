@@ -301,7 +301,7 @@ window.escapeHtml = function(s){ return String(s===null||s===undefined?'':s).rep
         img.removeEventListener('error', onerr);
         console.warn('image failed to load:', src);
         // show a small visual fallback (use kitter.jpeg from assets)
-        try{ img.dataset._failedSrc = src; img.src = '/assets/kitter.jpeg'; img.classList.add('img-missing'); }
+        try{ img.dataset._failedSrc = src; img.src = 'assets/kitter.jpeg'; img.classList.add('img-missing'); }
         catch(e){ console.warn('failed to set fallback image', e); }
         // add a short hint below image if not already present
         try{
